@@ -1,0 +1,279 @@
++++ a/.gitignore
+ 	1
++*.iml
+ 	2
++.idea/
+ 	3
++*.jar
+ 	4
++*.war
+ 	5
++*.ear
+ 	6
++/target
+ 	7
++/.settings
+ 	8
++/.classpath
+ 	9
++/.project
+ 	10
++# .gitignore for maven 
+ 	11
++target/
+ 	12
++*.releaseBackup
+ 	13
++
+ 	14
++# web application files
+ 	15
++#/web-app/WEB-INF
+ 	16
++
+ 	17
++# IDE support files
+ 	18
++/.classpath
+ 	19
++/.launch
+ 	20
++/.project
+ 	21
++/.settings
+ 	22
++/*.launch
+ 	23
++/*.tmproj
+ 	24
++/ivy*
+ 	25
++/eclipse
+ 	26
++
+ 	27
++# default HSQL database files for production mode
+ 	28
++/prodDb.*
+ 	29
++
+ 	30
++# general HSQL database files
+ 	31
++*Db.properties
+ 	32
++*Db.script
+ 	33
++
+ 	34
++# logs
+ 	35
++/stacktrace.log
+ 	36
++/test/reports
+ 	37
++/logs
+ 	38
++*.log
+ 	39
++*.log.*
+ 	40
++
+ 	41
++# project release file
+ 	42
++/*.war
+ 	43
++
+ 	44
++# plugin release file
+ 	45
++/*.zip
+ 	46
++/*.zip.sha1
+ 	47
++
+ 	48
++# older plugin install locations
+ 	49
++/plugins
+ 	50
++/web-app/plugins
+ 	51
++/web-app/WEB-INF/classes
+ 	52
++
+ 	53
++# "temporary" build files
+ 	54
++target/
+ 	55
++out/
+ 	56
++build/
+ 	57
++
+ 	58
++# other
+ 	59
++*.iws
+ 	60
++
+ 	61
++#.gitignore for java
+ 	62
++*.class
+ 	63
++
+ 	64
++#Package Files#
+ 	65
++*.jar
+ 	66
++*.war
+ 	67
++*.ear
+ 	68
++
+ 	69
++## .gitignore for eclipse
+ 	70
++
+ 	71
++*.pydevproject
+ 	72
++.project
+ 	73
++.metadata
+ 	74
++bin/**
+ 	75
++tmp/**
+ 	76
++tmp/**/*
+ 	77
++*.tmp
+ 	78
++*.bak
+ 	79
++*.swp
+ 	80
++*~.nib
+ 	81
++local.properties
+ 	82
++.classpath
+ 	83
++.settings/
+ 	84
++.loadpath
+ 	85
++
+ 	86
++# External tool builders
+ 	87
++.externalToolBuilders/
+ 	88
++
+ 	89
++# Locally stored "Eclipse launch configurations"
+ 	90
++*.launch
+ 	91
++
+ 	92
++# CDT-specific
+ 	93
++.cproject
+ 	94
++
+ 	95
++# PDT-specific
+ 	96
++.buildpath
+ 	97
++
+ 	98
++## .gitignore for intellij
+ 	99
++
+ 	100
++*.iml
+ 	101
++*.ipr
+ 	102
++*.iws
+ 	103
++.idea/
+ 	104
++
+ 	105
++## .gitignore for linux
+ 	106
++.*
+ 	107
++!.gitignore
+ 	108
++*~
+ 	109
++
+ 	110
++## .gitignore for windows
+ 	111
++
+ 	112
++# Windows image file caches
+ 	113
++Thumbs.db
+ 	114
++ehthumbs.db
+ 	115
++
+ 	116
++# Folder config file
+ 	117
++Desktop.ini
+ 	118
++
+ 	119
++# Recycle Bin used on file shares
+ 	120
++$RECYCLE.BIN/
+ 	121
++
+ 	122
++## .gitignore for mac os x
+ 	123
++
+ 	124
++.DS_Store
+ 	125
++.AppleDouble
+ 	126
++.LSOverride
+ 	127
++Icon
+ 	128
++
+ 	129
++
+ 	130
++# Thumbnails
+ 	131
++._*
+ 	132
++
+ 	133
++# Files that might appear on external disk
+ 	134
++.Spotlight-V100
+ 	135
++.Trashes
+ 	136
++
+ 	137
++## hack for graddle wrapper
+ 	138
++!wrapper/*.jar
+ 	139
++!**/wrapper/*.jar
