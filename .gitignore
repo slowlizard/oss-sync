@@ -1,279 +1,279 @@
-+++ a/.gitignore
+ a/.gitignore
  	1
-+*.iml
+*.iml
  	2
-+.idea/
+.idea/
  	3
-+*.jar
+*.jar
  	4
-+*.war
+*.war
  	5
-+*.ear
+*.ear
  	6
-+/target
+/target
  	7
-+/.settings
+/.settings
  	8
-+/.classpath
+/.classpath
  	9
-+/.project
+/.project
  	10
-+# .gitignore for maven 
+# .gitignore for maven 
  	11
-+target/
+target/
  	12
-+*.releaseBackup
+*.releaseBackup
  	13
-+
+
  	14
-+# web application files
+# web application files
  	15
-+#/web-app/WEB-INF
+#/web-app/WEB-INF
  	16
-+
+
  	17
-+# IDE support files
+# IDE support files
  	18
-+/.classpath
+/.classpath
  	19
-+/.launch
+/.launch
  	20
-+/.project
+/.project
  	21
-+/.settings
+/.settings
  	22
-+/*.launch
+/*.launch
  	23
-+/*.tmproj
+/*.tmproj
  	24
-+/ivy*
+/ivy*
  	25
-+/eclipse
+/eclipse
  	26
-+
+
  	27
-+# default HSQL database files for production mode
+# default HSQL database files for production mode
  	28
-+/prodDb.*
+/prodDb.*
  	29
-+
+
  	30
-+# general HSQL database files
+# general HSQL database files
  	31
-+*Db.properties
+*Db.properties
  	32
-+*Db.script
+*Db.script
  	33
-+
+
  	34
-+# logs
+# logs
  	35
-+/stacktrace.log
+/stacktrace.log
  	36
-+/test/reports
+/test/reports
  	37
-+/logs
+/logs
  	38
-+*.log
+*.log
  	39
-+*.log.*
+*.log.*
  	40
-+
+
  	41
-+# project release file
+# project release file
  	42
-+/*.war
+/*.war
  	43
-+
+
  	44
-+# plugin release file
+# plugin release file
  	45
-+/*.zip
+/*.zip
  	46
-+/*.zip.sha1
+/*.zip.sha1
  	47
-+
+
  	48
-+# older plugin install locations
+# older plugin install locations
  	49
-+/plugins
+/plugins
  	50
-+/web-app/plugins
+/web-app/plugins
  	51
-+/web-app/WEB-INF/classes
+/web-app/WEB-INF/classes
  	52
-+
+
  	53
-+# "temporary" build files
+# "temporary" build files
  	54
-+target/
+target/
  	55
-+out/
+out/
  	56
-+build/
+build/
  	57
-+
+
  	58
-+# other
+# other
  	59
-+*.iws
+*.iws
  	60
-+
+
  	61
-+#.gitignore for java
+#.gitignore for java
  	62
-+*.class
+*.class
  	63
-+
+
  	64
-+#Package Files#
+#Package Files#
  	65
-+*.jar
+*.jar
  	66
-+*.war
+*.war
  	67
-+*.ear
+*.ear
  	68
-+
+
  	69
-+## .gitignore for eclipse
+## .gitignore for eclipse
  	70
-+
+
  	71
-+*.pydevproject
+*.pydevproject
  	72
-+.project
+.project
  	73
-+.metadata
+.metadata
  	74
-+bin/**
+bin/**
  	75
-+tmp/**
+tmp/**
  	76
-+tmp/**/*
+tmp/**/*
  	77
-+*.tmp
+*.tmp
  	78
-+*.bak
+*.bak
  	79
-+*.swp
+*.swp
  	80
-+*~.nib
+*~.nib
  	81
-+local.properties
+local.properties
  	82
-+.classpath
+.classpath
  	83
-+.settings/
+.settings/
  	84
-+.loadpath
+.loadpath
  	85
-+
+
  	86
-+# External tool builders
+# External tool builders
  	87
-+.externalToolBuilders/
+.externalToolBuilders/
  	88
-+
+
  	89
-+# Locally stored "Eclipse launch configurations"
+# Locally stored "Eclipse launch configurations"
  	90
-+*.launch
+*.launch
  	91
-+
+
  	92
-+# CDT-specific
+# CDT-specific
  	93
-+.cproject
+.cproject
  	94
-+
+
  	95
-+# PDT-specific
+# PDT-specific
  	96
-+.buildpath
+.buildpath
  	97
-+
+
  	98
-+## .gitignore for intellij
+## .gitignore for intellij
  	99
-+
+
  	100
-+*.iml
+*.iml
  	101
-+*.ipr
+*.ipr
  	102
-+*.iws
+*.iws
  	103
-+.idea/
+.idea/
  	104
-+
+
  	105
-+## .gitignore for linux
+## .gitignore for linux
  	106
-+.*
+.*
  	107
-+!.gitignore
+!.gitignore
  	108
-+*~
+*~
  	109
-+
+
  	110
-+## .gitignore for windows
+## .gitignore for windows
  	111
-+
+
  	112
-+# Windows image file caches
+# Windows image file caches
  	113
-+Thumbs.db
+Thumbs.db
  	114
-+ehthumbs.db
+ehthumbs.db
  	115
-+
+
  	116
-+# Folder config file
+# Folder config file
  	117
-+Desktop.ini
+Desktop.ini
  	118
-+
+
  	119
-+# Recycle Bin used on file shares
+# Recycle Bin used on file shares
  	120
-+$RECYCLE.BIN/
+$RECYCLE.BIN/
  	121
-+
+
  	122
-+## .gitignore for mac os x
+## .gitignore for mac os x
  	123
-+
+
  	124
-+.DS_Store
+.DS_Store
  	125
-+.AppleDouble
+.AppleDouble
  	126
-+.LSOverride
+.LSOverride
  	127
-+Icon
+Icon
  	128
-+
+
  	129
-+
+
  	130
-+# Thumbnails
+# Thumbnails
  	131
-+._*
+._*
  	132
-+
+
  	133
-+# Files that might appear on external disk
+# Files that might appear on external disk
  	134
-+.Spotlight-V100
+.Spotlight-V100
  	135
-+.Trashes
+.Trashes
  	136
-+
+
  	137
-+## hack for graddle wrapper
+## hack for graddle wrapper
  	138
-+!wrapper/*.jar
+!wrapper/*.jar
  	139
-+!**/wrapper/*.jar
+!**/wrapper/*.jar
