@@ -192,23 +192,17 @@ public class SSHConnection {
 		Session session = null;
 		try {
 			String user = "root";
-			String passwd = "Apartsman2015";
-			String host = "120.55.181.223";
+			String passwd = "";
+			String host = "";
 			connection = new SSHConnection(user, passwd, host);
 			connection.connect();
 			session = connection.getSession();
 			channel = (ChannelSftp) session.openChannel("sftp");
 			channel.connect(5000);
-			// channel.cd("/aparts/img");
-			// FileOutputStream dst = new FileOutputStream(new
-			// File("E:\120.55.181.233"));
-			// channel.get("/aparts/img", dst);
-			String rootPath = "/aparts/img";
+	
+			String rootPath = "";
 			List<String> files = new ArrayList<String>();
 			connection.listFile(channel, rootPath, files);
-			// for (String string : files) {
-			// System.out.println(string);
-			// }
 
 		} catch (Exception e) {
 
@@ -220,14 +214,11 @@ public class SSHConnection {
 
 	}
 
-	/**
-	 * 
-	 * String rootPath = "/aparts/img"; // channel.cd("/aparts/img"); //
-	 * FileOutputStream dst = new FileOutputStream(new //
-	 * File("E:\120.55.181.233")); // channel.get("/aparts/img", dst);
-	 * 
-	 * @return
-	 */
+   /**
+    * 
+    * @param remotePath
+    * @return
+    */
 	public List<String> getFiles(String remotePath) {
 		List<String> files = new ArrayList<String>();
 		try {
